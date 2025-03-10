@@ -1,0 +1,28 @@
+765
+Floppy disk controller.
+
+       +--------------+
+   RST |1    +--+   40| VCC
+   /RD |2           39| /RW SEEK
+   /WR |3           38| LCT DIR
+   /CE |4           37| FR  STEP
+D/S A0 |5           36| HDL
+    D0 |6           35| RDY
+    D1 |7           34| WP  TS
+    D2 |8           33| FLT TR00
+    D3 |9           32| PS0
+    D4 |10   765    31| PS1
+    D5 |11   FDC    30| WDA
+    D6 |12          29| US0
+    D7 |13          28| US1
+   DRQ |14          27| HD
+ /DACK |15          26| MFM
+    TC |16          25| WE
+   IDX |17          24| VCO SYNC
+   INT |18          23| RDD
+   CLK |19          22| RDW
+   GND |20          21| WCLK
+       +--------------+
+
+[This information is part of the GIICM]
+
